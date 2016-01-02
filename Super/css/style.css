@@ -1,0 +1,161 @@
+.to-left{
+	float: left;
+}
+.to-right{
+	float:right;
+}
+.container{
+width:1200px;
+margin:0 auto;
+}
+body{
+	min-width: 1200px;
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	cursor: default;
+}
+/*header, footer*/
+.promo{
+	background: url(../img/home_promo_bg.jpg) no-repeat;
+	background-size: cover;
+	width:100%;
+	min-height: 700px;
+	position: relative;
+	overflow: hidden;
+}
+.promo .promo-title{
+	font-size: 341px;
+	font-family: 'supermolotbold_italic';
+	width: 200%;
+	display: block;
+	position: absolute;
+	left: -115px;
+	bottom: 70px;
+	opacity: 0.08;
+	cursor: default;
+	z-index: 10;
+}
+.promo-home{
+	padding-top:25px; 
+	overflow: hidden;
+}
+.promo .promo_logo{
+ 	height: 120px;
+	width: 180px;
+	background-color: #ed1651;	
+ }
+.promo .logo_item {
+	font-size: 33px;
+	font-family: 'supermolotregular';
+	color: #fff;
+	line-height: 24px;
+	text-transform: uppercase;
+	text-align: center;
+	display: inline-block;
+	padding-top: 30px;
+}
+.promo .logo_item span{
+	font-size: 41px;
+	font-family: 'supermolotbold';
+	line-height: 35px;
+}
+.promo .categoriya {
+	padding-left: 0;
+	background-color: #fff;
+	height: 60px;
+	min-width: 1020px;
+}
+.promo .categoriya-ul{
+	padding-left: 0;
+}
+.promo .categoriya-item{
+	display: inline-block;
+	text-decoration: none;
+	width: 130px;
+	height: 60px;
+	line-height: 60px;
+	background-color: #fff;
+	text-align: center;
+	color: #000;
+	float: left;
+	cursor: pointer;
+	font-family: 'supermolotregular';
+	font-size: 14px;
+}
+.promo .categoriya-item:hover{
+	background-color: #021563;
+	color: #fff;
+}
+.categoriya .in-cabinet,
+.categoriya .registration {	
+	text-decoration: none;
+	list-style: none;
+	margin: 20px 15px;
+	cursor: pointer;
+}
+.registration a{
+	color:#000;
+	border-bottom: 1px dashed #000;
+	cursor: pointer;
+}
+.in-cabinet a{
+	color: #ed1651;
+	border-bottom: 1px dashed #ed1651;
+	cursor: pointer;
+}
+.categoriya a{
+	font-size: 14px;
+	font-family: 'supermolotlight';
+}
+.promo .promo_name{
+	width: 600px;
+	margin: 80px 10px 10px;
+}
+.promo_name .promo_item{
+	font-size: 72px;
+	font-family: 'supermolotbold_italic';
+	text-transform: uppercase;
+	line-height: 62px;
+}
+.promo_name .promo_item span{
+	font-family: 'supermolotlight_italic';
+}
+.promo_name .promo_name-specification{
+	padding: 15px 15px 15px 0;
+	font-family: 'supermolotregular';
+	font-size: 14px;
+	color: #fff;
+}
+.promo .promo_name-list{
+	padding: 20px 60px;
+	border:2px solid #ed1651;
+	background-color: transparent;
+	color: #fff;
+	font-family: 'supermolotitalic';
+	font-size: 14px;
+	margin: 20px 0px 20px 290px;
+	cursor: pointer;
+	position: absolute;
+	z-index: 15;
+	outline: none;
+}
+.promo .promo_new{
+	position: absolute;
+	
+	bottom: 0px;
+	height: 80px;
+	background-color: #fff;
+	width: 1200px;
+}
+.promo_new .promo_new-products{
+	margin: 10px;
+	color:#021562;
+	width: 140px;
+}
+.promo_new li{
+	display: inline-block;
+}
